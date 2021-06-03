@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to react-atm 👋</h1>
-<img src="/images/atm.png">
+<img src="/images/atm.png" href="https://main.d2k8qm3npwsv4u.amplifyapp.com/" target="_blank">
 <p>
   <a href="https://www.npmjs.com/package/atm" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/atm.svg">
@@ -13,6 +13,8 @@
 </p>
 
 > A simple React ATM Machine that keeps track of state with two function components, Account and ATM.  Account balance updates when cash is deposited or withdrawn.
+
+<a href="https://main.d2k8qm3npwsv4u.amplifyapp.com/" target="_blank">Click Here to See ATM in Action!</a>
 
 ## Author
 
