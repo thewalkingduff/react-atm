@@ -1,0 +1,147 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,700&display=swap');
+
+  body {
+      background: #29660C;
+      color: #F7E2C7;
+      font-family: 'Lato', sans-serif;
+      text-align: center;
+      margin: 1rem auto;
+  }
+
+  h1 {
+      font-size: 5rem;
+      font-weight: 900;
+      padding: 1rem;
+      margin: 2rem auto 1rem;
+
+  }
+
+  h2 {
+      font-size: 4rem;
+      font-weight: 700;
+      padding: 1rem;
+      text-transform: uppercase;
+  }
+
+  h3 {
+      font-size: 3rem;
+  }
+
+  img {
+      height: 100px;
+      width: 100px;
+  }
+
+  label {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400;
+      font-size: 2rem;
+      padding: 1rem;
+      text-align: center;
+  }
+
+  select {
+      padding: 1rem;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+  }
+
+  input {
+    background: #F7E2C7;
+    color: #29660C;
+    margin: 1rem;
+    text-transform: uppercase;
+    
+  }
+
+  input:hover {
+      background: #fff;
+      transition: .8s;
+  }
+
+  .money-atm {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-items: center;
+      align-items: center;
+  }
+
+  #root {
+      background: #578E87;
+      padding: 1rem;
+  }
+
+  #select-action {
+       display: grid;
+       grid-template-columns: 1fr;
+       justify-content: center;
+       align-items: center;
+       padding: 1rem;
+  }
+
+  @media (max-width: 1024px) {
+    h1 {
+    font-size: 4rem;
+    }
+
+    h2 {
+    font-size: 2.5rem;
+
+    }
+    h3 {
+    font-size: 1.5rem;
+    }
+
+    img {
+    height: 85px;
+    width: 85x;
+    }
+}
+
+  @media (max-width: 768px) {   
+    h1 {
+    font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.25rem;
+    }
+    img {
+        height: 50px;
+        width: 50x;
+    }
+    label {
+        font-size: 1rem;
+    }
+    select {
+        padding: .5rem;
+        font-size: 1rem;
+    }
+    }
+    @media (max-width: 480px) {
+        
+    h1 {
+        font-size: 2rem;
+
+    }
+
+    h2 {
+        font-size: 1.5rem;
+
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    img {
+        height: 40px;
+        width: 25x;
+    }
+}
+
