@@ -12,7 +12,7 @@
   </a>
 </p>
 
-> A simple React ATM Machine that keeps track of state with two function components, Account and ATM.  Account balance updates when cash is deposited or withdrawn.
+> A simple React ATM Machine that keeps track of state with two function components: Account and ATM.  Account balance updates when cash is deposited or withdrawn.
 
 <a href="https://main.d2k8qm3npwsv4u.amplifyapp.com/" target="_blank">Click Here to See ATM in Action!</a>
 
